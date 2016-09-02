@@ -9,15 +9,15 @@ brew 'colordiff'
 # brew diffutils
 # brew ed --default-names
 # brew findutils --with-default-names
-# brew gawk
+brew 'gawk'
 # brew gnu-indent --with-default-names
 # brew gnu-sed --with-default-names
 # brew gnu-tar --with-default-names
 # brew gnu-which --with-default-names
 # brew gnutls
 # brew grep --with-default-names
-brew gzip
-brew screen
+# brew 'gzip' # Schijnt niet te bestaan
+# brew 'screen' # Schijnt niet te bestaan
 # brew watch
 # brew wdiff --with-gettext
 
@@ -43,17 +43,20 @@ brew 'unrar'
 brew 'wget'
 brew 'youtube-dl'
 
-# cask '1password'
+cask '1password'
 # cask 'adium'
 # cask 'atom'
-# cask 'firefox'
+cask 'firefox'
 # cask 'garmin-express'
-# cask 'google-chrome'
+cask 'google-chrome'
 # cask 'handbrake'
 # cask 'mapbox-studio'
 # cask 'seashore'
-# cask 'slack'
+cask 'slack'
+cask 'sublime'
 # cask 'steam'
 # cask 'transmission'
 # cask 'tunnelbear'
-# cask 'vlc'
+cask 'vlc'
+cask 'sublime-text'
+cask 'spotify'
