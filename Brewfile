@@ -2,6 +2,7 @@ cask_args appdir: '/Applications'
 
 tap 'homebrew/bundle'
 
+brew 'ripgrep'
 brew 'ack'
 brew 'coreutils'
 brew 'colordiff'
@@ -60,3 +61,4 @@ cask 'sublime'
 cask 'vlc'
 cask 'sublime-text'
 cask 'spotify'
+cask 'flux'
