@@ -2,6 +2,7 @@ cask_args appdir: '/Applications'
 
 tap 'homebrew/bundle'
 
+brew 'python' # Installs python2.7
 brew 'ripgrep'
 brew 'ack'
 brew 'coreutils'
@@ -62,3 +63,6 @@ cask 'vlc'
 cask 'sublime-text'
 cask 'spotify'
 cask 'flux'
+
+# README
+# sudo vi /etc/paths => Give preference to Homebrew files
